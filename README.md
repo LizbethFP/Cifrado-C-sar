@@ -9,7 +9,7 @@ CIFRADO CÉSAR
 * [Fecha](#cabecera5)
 
 ### Se puede acceder a este proyecto en
-[Github](http://joedicastro.com "Github")
+[Github](https://github.com/LizbethFP/Cifrado-C-sar.git "Github")
 
 Descripción general
 -------------------
@@ -17,27 +17,30 @@ Para el producto "Cifrado César", se pide que una página web obtenga una frase
 
 Pseudocódigo
 ------------
-ingreso = frase a cifrar con prompt;
-srt <- ingreso;
+ingreso = frase a cifrar con prompt;  
+srt <- ingreso;  
 
-Función cipher (str){
-para (i = 0; i<srt.length; i++){
-      cambiar letras alfabéticas a letra ASCII;
-      realizar cifrado César y conseguir posición de letras ASCII;
-      conseguir nuevas letras ASCII;
-      acumular cada letra para crear frase cifrada
-}
-retornar frase cifrada
-}
-imprimir función con alert
+* Función cipher (str){  
+para (i = 0; i<srt.length; i++){  
+      conseguir posición ASCII de letras alfabéticas;  
+      realizar cifrado César y conseguir posición de letras ASCII;  
+      conseguir nuevas letras ASCII;  
+      acumular cada letra para crear frase cifrada  
+}  
+retornar frase cifrada  
+}  
+mostrar función con alert  
 
-Función decipher (str){
-para (i = 0; i<srt.length; i++){
-
-}
-retornar frase descifrada
-}
-imprimir función con alert
+* Función decipher (str){  
+para (i = 0; i<srt.length; i++){  
+  conseguir posición ASCII de letras alfabéticas;  
+  realizar fórmula de descifrado y conseguir posición de letras ASCII;  
+  conseguir nuevas letras ASCII;  
+  acumular cada letra para crear frase descifrada  
+} 
+retornar frase descifrada  
+}  
+mostrar función con alert  
 
 
 Diagrama de flujo
