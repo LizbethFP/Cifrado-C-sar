@@ -2,7 +2,6 @@ var str = prompt('Ingrese una frase a cifrar');
 var valToDecipher = cipher(str);
 function cipher (str){
   var acum = '';
-
   for (var i = 0; i<str.length; i++){//itinerar str
     var asciiCode = str.charAt(i).charCodeAt(0); //Consiguiendo posición ASCII de las letras alfabéticas según índice del str
     var cesarFormulaAndAscii = ((asciiCode-65)+33)%26+65;//Realizando fórmula de cifrado y consiguiendo posición de letras ASCII
