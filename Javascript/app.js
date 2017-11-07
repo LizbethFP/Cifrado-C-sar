@@ -17,7 +17,7 @@ function decipher(valToDecipher) {
     var asciiCode1 = valToDecipher.charAt(i).charCodeAt(0);// Consiguiendo posición ASCII de las letras
     var cesarFormulaAndAscii1 = ((asciiCode1 + 65) - 33) % 26 + 65;// Realizando fórmula de cifrado y consiguiendo posición de letras ASCII
     var reverseLetter = String.fromCharCode(cesarFormulaAndAscii1);// Conseguir elemento nuevo según ASCII
-    acum1 = + reverseLetter ;// acumular letra ASCII y crear frase descifrada
+    acum1 += reverseLetter ;// acumular letra ASCII y crear frase descifrada
   }
   return acum1;// retornar frase descifrada
 }
